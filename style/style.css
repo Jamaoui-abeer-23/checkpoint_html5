@@ -1,0 +1,245 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    
+}
+
+nav {
+    background-color: #FBF5E5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+    color: #A35C7A !important;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 40px;
+    margin-top: 100px;
+    color: #060606;
+    z-index: 1;
+    
+    
+    /* Box Styling */
+    background-color: #FBF6E9;  /* Light background color */
+    border-radius: 12px;  /* Rounded corners */
+    padding: 40px;  /* Padding inside the box */
+    width: 90%;  /* Makes the box responsive */
+    max-width: 900px;  /* Maximum width */
+    
+    /* Subtle Shadow */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+
+    /* Font Settings */
+    font-family: 'Georgia', serif;  /* Elegant serif font */
+    text-align: center;
+
+    /* Centering (Remove 100vh) */
+    margin-top: 120px; /* Adjust for space from the top */
+    margin-bottom: 80px; /* Add space at the bottom to prevent overlap */
+}
+
+.hero h1, .hero p {
+    margin: 0;
+    font-weight: 400; /* Light font weight for elegance */
+}
+
+.hero h1 {
+    font-size: 3rem;  /* Large font size for the heading */
+    color: #A35C7A;  /* Sophisticated green color */
+}
+
+.hero p {
+    font-size: 1.25rem;  /* Medium font size for the description */
+    color: #C890A7;  /* Light green for the text */
+    margin-top: 20px;
+}
+
+/* Style for the 'Start Your Journey' button */
+.btn-lg {
+    margin-top: 40px; 
+    background-color: #FBF5E5;  /* Soft cream color for the button */
+    
+    color: #212121;  /* Dark text for contrast */
+    font-size: 1.2rem;  /* Slightly larger text */
+    padding: 12px 30px;  /* Comfortable padding */
+    border-radius: 50px;  /* Rounded corners for elegance */
+    text-transform: uppercase;  /* Uppercase text for a sophisticated touch */
+    font-weight: 600;  /* Bold text */
+    transition: all 0.3s ease;  /* Smooth transition on hover */
+    border: none;  /* Remove default border */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    text-decoration: none;  /* Remove underline */
+    display: inline-block;  /* Ensure the button is inline */
+}
+
+/* Hover effect for the button */
+.btn-lg:hover {
+    background-color: #C890A7;  /* Muted pink background */
+    color: #FFFFFF;  /* Change text color to white on hover */
+    transform: translateY(-3px);  /* Slight upward movement */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);  /* Slightly stronger shadow on hover */
+}
+
+/* Active state (when button is clicked) */
+.btn-lg:active {
+    background-color: #A35C7A;  /* Darker pink when clicked */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Shadow return to normal */
+}
+
+
+.footer {
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for separation */
+  }
+  
+  .footer a:hover {
+    color: #A35C7A; /* Highlight effect on hover */
+  }
+  
+  .footer i {
+    transition: transform 0.3s ease;
+  }
+  
+  .footer i:hover {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+  }
+  
+
+.destination-card, .tour-accordion {
+    margin-bottom: 2rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+.card-title, .accordion-button {
+    color: #A35C7A;
+}
+/* Style for the 'Learn More' button */
+.btn-primary {
+    background-color: #FBF5E5;  /* Light soft background color */
+    color: #212121;  /* Dark text for contrast */
+    padding: 10px 20px;  /* Comfortable padding */
+    font-size: 1rem;  /* Normal font size */
+    border-radius: 30px;  /* Rounded edges for a soft look */
+    text-transform: capitalize;  /* Capitalized text */
+    font-weight: 500;  /* Medium font weight */
+    transition: background-color 0.3s, transform 0.3s;  /* Smooth transition for hover effect */
+    border: 2px solid #C890A7;  /* Soft pink border */
+    text-decoration: none;  /* Remove underline */
+    display: inline-block;  /* Keep the button inline */
+}
+
+/* Hover effect for the 'Learn More' button */
+.btn-primary:hover {
+    background-color: #C890A7;  /* Light pink background on hover */
+    color: #FFFFFF;  /* White text on hover */
+    transform: translateY(-3px);  /* Slight upward movement on hover */
+    border-color: #A35C7A;  /* Darker pink border on hover */
+}
+
+/* Active state (when button is clicked) */
+.btn-primary:active {
+    background-color: #A35C7A;  /* Darker pink when clicked */
+    border-color: #C890A7;  /* Lighter border when clicked */
+    transform: translateY(0);  /* Reset the upward movement */
+}
+/* Style for the card container with shadow */
+.shadow-box {
+    border: 1px solid #ddd;  /* Light border for separation */
+    border-radius: 10px;  /* Rounded corners for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Slight shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth transition */
+}
+
+/* Hover effect for card */
+.shadow-box:hover {
+    transform: translateY(-5px);  /* Lift the card slightly */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Darker shadow on hover */
+}
+
+/* Spacing between the cards */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+/* Tours Container */
+.tours-container {
+    display: grid;
+    place-items: center; /* Centers content both vertically and horizontally */
+    
+    padding: 50px 20px;
+    
+}
+
+/* Accordion Styling */
+.accordion {
+    max-width: 600px; /* Restricts width for a cleaner look */
+    width: 100%; /* Responsive width */
+    background-color: #FBF5E5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 12px; /* Smooth rounded edges */
+    overflow: hidden; /* Ensures children are contained */
+    margin-bottom: 30px; /* Adds spacing between multiple accordions */
+}
+
+/* Accordion Item */
+.accordion-item {
+    border: none; /* Removes default borders */
+}
+
+/* Accordion Button */
+.accordion-button {
+    background-color: #C890A7; /* Main color */
+    color: #FBF5E5; /* Text color */
+    font-weight: bold; /* Adds emphasis */
+    padding: 15px; /* Comfortable padding */
+    border-radius: 0; /* Keeps edges straight */
+    text-align: left; /* Align text for readability */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+}
+
+.accordion-button:hover,
+.accordion-button:not(.collapsed) {
+    background-color: #FBF5E5;
+    color: #C890A7;
+    box-shadow: inset 0 -3px 5px rgba(0, 0, 0, 0.1); /* Adds depth when expanded */
+}
+
+/* Accordion Body */
+.accordion-body {
+    background-color: #FBF5E5;
+    color: #C890A7;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 15px;
+    border-top: 1px solid #C890A7; /* Separator for distinction */
+    text-align: justify;
+}
+.card-img-top {
+    width: 100%; /* Ensures the image fits the card width */
+    height: 200px; /* Sets a uniform height for all images */
+    object-fit: cover; /* Ensures the image scales without distortion */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adds a light shadow around images */
+    border-radius: 8px; /* Optional: Adds rounded corners for elegance */
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); /* Increases shadow intensity on hover */
+  }
