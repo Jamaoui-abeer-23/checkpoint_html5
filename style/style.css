@@ -260,3 +260,55 @@ footer p {
     transform: scale(1.05); /* Slight zoom-in effect on hover */
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); /* Increases shadow intensity on hover */
   }
+  .launch-modal-btn {
+    background-color: #A35C7A;
+    border: none;
+    color: #FBF5E5;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .launch-modal-btn:hover {
+    background-color: #C890A7;
+    transform: scale(1.05);
+  }
+  
+  .modal-content {
+    background-color: #FBF5E5;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .modal-header {
+    border-bottom: 1px solid #A35C7A;
+  }
+  
+  .modal-title {
+    color: #A35C7A;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+  }
+  
+  .modal-body img {
+    margin-top: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #A35C7A;
+  }
+  
+  .modal-footer .btn-secondary {
+    background-color: #C890A7;
+    color: #FBF5E5;
+    border: none;
+  }
+  
+  .modal-footer .btn-primary {
+    background-color: #A35C7A;
+    color: #FBF5E5;
+    border: none;
+  }
