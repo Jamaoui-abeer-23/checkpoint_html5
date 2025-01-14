@@ -21,6 +21,21 @@ nav {
 .nav-link {
     color: #A35C7A !important;
 }
+.navbar-brand {
+    font-family: 'Playfair Display', serif; /* Elegant serif font */
+    font-size: 1.8rem; /* Slightly larger font size */
+    font-weight: bold; /* Bold for emphasis */
+    color: #A35C7A !important; /* Use a sophisticated color */
+    text-transform: uppercase; /* For a clean, professional look */
+    letter-spacing: 2px; /* Adds spacing between letters for a luxury feel */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .navbar-brand:hover {
+    color: #C890A7 !important; /* Slightly lighter color on hover */
+    transform: scale(1.1); /* Subtle zoom effect */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Adds a soft shadow */
+  }
 
 .hero {
     display: flex;
@@ -77,6 +92,7 @@ nav {
     color: #212121;  /* Dark text for contrast */
     font-size: 1.2rem;  /* Slightly larger text */
     padding: 12px 30px;  /* Comfortable padding */
+    
     border-radius: 50px;  /* Rounded corners for elegance */
     text-transform: uppercase;  /* Uppercase text for a sophisticated touch */
     font-weight: 600;  /* Bold text */
@@ -135,6 +151,7 @@ footer p {
     background-color: #FBF5E5;  /* Light soft background color */
     color: #212121;  /* Dark text for contrast */
     padding: 10px 20px;  /* Comfortable padding */
+    margin-bottom: 20px;
     font-size: 1rem;  /* Normal font size */
     border-radius: 30px;  /* Rounded edges for a soft look */
     text-transform: capitalize;  /* Capitalized text */

@@ -6,9 +6,10 @@
     <title>Travel Agency - Contact</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
           <a class="navbar-brand" href="../index.html">Ultra Travels</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,9 +17,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link active" href="../index.html">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="../pages/Destinations.html">Destinations</a></li>
-              <li class="nav-item"><a class="nav-link active" href="../pages/Tours.html">Tours</a></li>
+              <li class="nav-item"><a class="nav-link" href="../pages/Tours.html">Tours</a></li>
               <li class="nav-item"><a class="nav-link" href="../pages/Contact.html">Contact</a></li>
             </ul>
           </div>
@@ -26,7 +27,7 @@
       </nav>
 
 <div class="container" style="margin-top: 6rem;">
-  <h2 class="text-center mb-4" style="color: #118B50;">Contact Us</h2>
+  <h2 class="text-center mb-4" style="color: #A35C7A;">Contact Us</h2>
   <form>
     <div class="mb-3">
       <label for="name" class="form-label">Name</label>
@@ -44,13 +45,47 @@
       <label for="message" class="form-label">Message</label>
       <textarea class="form-control" id="message" rows="3"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <center>
+    <button type="submit" class="btn btn-primary" >Submit</button>
+    </center>
   </form>
 </div>
 
-<footer class="footer">
-  <p>&copy; 2025 Travel Agency. All Rights Reserved.</p>
-</footer>
+<footer class="footer bg-light py-4">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <!-- About Section -->
+        <div class="col-md-6 mb-3">
+          <h5 class="text-uppercase" style="color: #A35C7A;">Ultra Travels</h5>
+          <p style="color: #212121;">
+            Discover the world with our personalized travel packages. Your adventure starts here!
+          </p>
+        </div>
+  
+        <!-- Social Media Links -->
+        <div class="col-md-6 text-md-right">
+          <h5 class="text-uppercase" style="color: #A35C7A;">Follow Us</h5>
+          <a href="#" class="text-decoration-none mx-2" style="color: #C890A7;">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+          <a href="#" class="text-decoration-none mx-2" style="color: #C890A7;">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="#" class="text-decoration-none mx-2" style="color: #C890A7;">
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+          <a href="#" class="text-decoration-none mx-2" style="color: #C890A7;">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+        </div>
+      </div>
+  
+      <!-- Copyright -->
+      <div class="text-center mt-3">
+        <p class="mb-0" style="color: #9e8585;">&copy; 2025 Travel Agency. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
