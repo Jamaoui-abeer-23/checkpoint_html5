@@ -44,7 +44,9 @@
               <div class="accordion-body">
                 A full-day tour of Paris covering major attractions like the Eiffel Tower, Louvre Museum, and Seine River.
                 <div class="text-center mt-3">
-                  <a href="#" class="btn btn-primary">Book Now</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Book Now
+                      </button>
                 </div>
               </div>
             </div>
@@ -63,7 +65,9 @@
               <div class="accordion-body">
                 A magical evening cruise in Santorini, offering unparalleled sunset views and a delightful dinner on board.
                 <div class="text-center mt-3">
-                  <a href="#" class="btn btn-primary">Book Now</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Book Now
+                      </button>
                 </div>
               </div>
             </div>
@@ -82,7 +86,9 @@
               <div class="accordion-body">
                 A journey through Tokyo's vibrant culture, from ancient temples to modern shopping districts.
                 <div class="text-center mt-3">
-                  <a href="#" class="btn btn-primary">Book Now</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Book Now
+                      </button>
                 </div>
               </div>
             </div>
@@ -101,7 +107,9 @@
               <div class="accordion-body">
                 Explore the wonders of ancient Egypt with visits to the Great Pyramids, Sphinx, and Egyptian Museum.
                 <div class="text-center mt-3">
-                  <a href="#" class="btn btn-primary">Book Now</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Book Now
+                      </button>
                 </div>
               </div>
             </div>
@@ -120,7 +128,9 @@
               <div class="accordion-body">
                 An exhilarating safari through the Serengeti National Park, spotting the Big Five and other wildlife.
                 <div class="text-center mt-3">
-                  <a href="#" class="btn btn-primary">Book Now</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Book Now
+                      </button>
                 </div>
               </div>
             </div>
@@ -139,7 +149,9 @@
               <div class="accordion-body">
                 Relax and unwind on Bali's pristine beaches, with options for yoga retreats and cultural excursions.
                 <div class="text-center mt-3">
-                  <a href="#" class="btn btn-primary">Book Now</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Book Now
+                      </button>
                 </div>
               </div>
             </div>
@@ -158,7 +170,9 @@
               <div class="accordion-body">
                 A whirlwind tour of NYC's iconic attractions, including Times Square, Central Park, and the Statue of Liberty.
                 <div class="text-center mt-3">
-                  <a href="#" class="btn btn-primary">Book Now</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Book Now
+                      </button>
                 </div>
               </div>
             </div>
@@ -177,13 +191,51 @@
               <div class="accordion-body">
                 Drift through Venice's canals on a traditional gondola, accompanied by enchanting serenades.
                 <div class="text-center mt-3">
-                  <a href="#" class="btn btn-primary">Book Now</a>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">
+                        Book Now
+                      </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Modal for Booking -->
+  <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bookingModalLabel">Book Your Tokyo Tour</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+              <label for="date" class="form-label">Preferred Tour Date</label>
+              <input type="date" class="form-control" id="date">
+            </div>
+            <div class="mb-3">
+              <label for="numPersons" class="form-label">Number of Persons</label>
+              <input type="number" class="form-control" id="numPersons" min="1" value="1">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Confirm Booking</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
     </center>
 </div>
 
