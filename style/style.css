@@ -94,28 +94,28 @@ nav {
 /* Style for the 'Start Your Journey' button */
 .btn-lg {
     margin-top: 40px; 
-    background-color: #FBF5E5;  /* Soft cream color for the button */
+    background-color: #FBF5E5 !important;  /* Soft cream color for the button */
     
-    color: #212121;  /* Dark text for contrast */
-    font-size: 1.2rem;  /* Slightly larger text */
-    padding: 12px 30px;  /* Comfortable padding */
+    color: #A35C7A !important;  /* Dark text for contrast */
+    font-size: 1.2rem !important;  /* Slightly larger text */
+    padding: 12px 30px !important;  /* Comfortable padding */
     
-    border-radius: 50px;  /* Rounded corners for elegance */
-    text-transform: uppercase;  /* Uppercase text for a sophisticated touch */
-    font-weight: 600;  /* Bold text */
-    transition: all 0.3s ease;  /* Smooth transition on hover */
-    border: none;  /* Remove default border */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
-    text-decoration: none;  /* Remove underline */
-    display: inline-block;  /* Ensure the button is inline */
+    border-radius: 50px !important;  /* Rounded corners for elegance */
+    text-transform: uppercase !important;  /* Uppercase text for a sophisticated touch */
+    font-weight: 600 !important;  /* Bold text */
+    transition: all 0.3s ease !important;  /* Smooth transition on hover */
+    border: none !important;  /* Remove default border */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;  /* Subtle shadow for depth */
+    text-decoration: none !important;  /* Remove underline */
+    display: inline-block !important;  /* Ensure the button is inline */
 }
 
 /* Hover effect for the button */
 .btn-lg:hover {
-    background-color: #C890A7;  /* Muted pink background */
-    color: #FFFFFF;  /* Change text color to white on hover */
-    transform: translateY(-3px);  /* Slight upward movement */
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);  /* Slightly stronger shadow on hover */
+    background-color: #c890a7bb !important;  /* Muted pink background */
+    color: #A35C7A !important ;  /* Change text color to white on hover */
+    transform: translateY(-3px) !important;  /* Slight upward movement */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2) !important;  /* Slightly stronger shadow on hover */
 }
 
 /* Active state (when button is clicked) */
@@ -268,19 +268,19 @@ footer p {
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); /* Increases shadow intensity on hover */
   }
   .launch-modal-btn {
-    background-color: #A35C7A;
-    border: none;
-    color: #FBF5E5;
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 8px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    background-color: #A35C7A !important;
+    border: none !important;
+    color: #FBF5E5 !important;
+    padding: 10px 20px !important;
+    font-size: 1rem !important;
+    font-weight: bold !important;
+    border-radius: 8px !important;
+    transition: background-color 0.3s ease, transform 0.2s ease !important;
   }
   
   .launch-modal-btn:hover {
-    background-color: #C890A7;
-    transform: scale(1.05);
+    background-color: #C890A7 !important;
+    transform: scale(1.05) !important;
   }
   
   .modal-content {
@@ -323,6 +323,8 @@ footer p {
   .tour-packages-list {
     max-width: 900px !important;
     margin: 0 auto !important;
+    padding-bottom: 50px !important;
+    margin-bottom: 50px !important ;
     padding: 20px !important;
     background-color: #FBF5E5 !important;
     border-radius: 8px !important;
@@ -353,6 +355,7 @@ footer p {
     background-color: #fff !important;
     font-size: 16px !important;
     color: #212121 !important;
+    
   }
 
   .accordion-button:not(.collapsed) {
@@ -379,6 +382,8 @@ footer p {
   .contact-page form {
     background-color: #FFFFFF;
     padding: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 50px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
